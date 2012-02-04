@@ -1,1 +1,7 @@
 This is my vim config files and plugins
+
+ln -nfs ~/.vim/.viminfo .viminfo
+ln -nfs ~/.vim/.vimrc .vimrc
+
+// write file with sudo
+:w !sudo tee %
