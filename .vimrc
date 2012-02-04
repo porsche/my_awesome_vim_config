@@ -8,4 +8,4 @@ if has("autocmd")
   filetype indent on
 endif
 
-
+au VimEnter * NERDTree
